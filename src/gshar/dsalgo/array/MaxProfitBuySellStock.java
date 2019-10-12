@@ -1,4 +1,4 @@
-package gshar.algoNds.array;
+package gshar.dsalgo.array;
 
 /**@author gauravsharma
  */
@@ -9,7 +9,7 @@ public class MaxProfitBuySellStock {
 	 * (Yes, both are done in single pass as `i` and `size - i`.)
 	 * Second pass to find difference of min and max.
 	 * */
-	public int maxProfit1(int[] prices) {
+	public static int maxProfit1(int[] prices) {
         int size = prices.length;
         if(size<=1)
             return 0;
@@ -40,7 +40,7 @@ public class MaxProfitBuySellStock {
 	/* This does the same in single pass.
 	 * Just calculate the minimum, so far, and subtract it from current price of stock.
 	 * */
-	public int maxProfit2(int[] prices) {
+	public static int maxProfit2(int[] prices) {
         int size = prices.length;
         if(size<=1)
             return 0;
