@@ -1,4 +1,4 @@
-package gshar.dsalgo.random;
+package com.gshar.dsalgo.random;
 
 import java.util.Random;
 

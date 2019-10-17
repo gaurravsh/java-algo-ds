@@ -1,4 +1,4 @@
-package gshar.dsalgo.array;
+package com.gshar.dsalgo.array;
 
 /**@author gauravsharma
  */

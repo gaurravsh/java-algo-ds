@@ -1,4 +1,4 @@
-package gshar.dsalgo.linkedlist;
+package com.gshar.dsalgo.linkedlist;
 
 class ListNode {
 	int val;
@@ -7,6 +7,7 @@ class ListNode {
 }
 
 public class SumLeftToRight {
+	/*Contains bugs and needs to be fixed.*/
 	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if(l1==null)
             return l2;
