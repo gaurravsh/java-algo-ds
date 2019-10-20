@@ -1,6 +1,6 @@
 package com.gshar.dsalgo.string;
 
-public class StringSubsequence {
+public class Subsequence {
 	/**Given a string s and a string t, check if s is subsequence of t.
 	 * https://leetcode.com/problems/is-subsequence/ */
 	public static boolean isSubsequence(String s, String t) {
