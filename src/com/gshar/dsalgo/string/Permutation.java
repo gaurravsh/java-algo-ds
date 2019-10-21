@@ -24,4 +24,33 @@ public class Permutation {
 		}
 		return true;
 	}
+	
+	private static String swap(int i, int j, String str){
+		char[] c = str.toCharArray();
+		char temp = c[i];
+		c[i]=c[j];
+		c[j]=temp;
+		return String.valueOf(c);
+	}
+	
+	/**Helper function for "permute" */
+	private static void permuteFromInd(final int ind,String str){		
+		if(str==null)
+			return;
+		
+		int size=str.length();
+
+		for(int i=ind;i<size;i++){
+			String strnew = swap(ind,i,str);
+			permuteFromInd(ind+1, strnew);
+		}
+		
+		if(ind>=size)
+			System.out.println(str);
+	}
+	
+	/**Find all permutations of a string*/
+	public static void permute(String str){
+		permuteFromInd(0,str);
+	}
 }
