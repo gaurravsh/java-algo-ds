@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ConcMarkSweepGCconfig" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.gshar.dsalgo.memorymgmt.UseMXBean" />
+    <module name="gshar" />
+    <option name="VM_PARAMETERS" value="-XX:+UseConcMarkSweepGC" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.gshar.dsalgo.memorymgmt.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
